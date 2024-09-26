@@ -1,0 +1,8 @@
+# Folders
+.idea/
+.wrangler
+node_modules
+
+# Files
+.dev.vars
+.DS_Store
