@@ -105,8 +105,8 @@ async def answer_inline_query(query_id, bot_token):
             ])),
             ("description", "Is it Thursday?"),
             ("thumb_url", "https://cdn-icons-png.freepik.com/256/5726/5726532.png"),
-            ("thumb_width", 100),
-            ("thumb_height", 100)
+            ("thumb_width", 150),
+            ("thumb_height", 150)
         ])
     )
 
