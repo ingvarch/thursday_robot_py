@@ -103,7 +103,10 @@ async def answer_inline_query(query_id, bot_token):
             ("input_message_content", Object.fromEntries([
                 ("message_text", message)
             ])),
-            ("description", "Is it Thursday?")
+            ("description", "Is it Thursday?"),
+            ("thumb_url", "https://cdn-icons-png.freepik.com/256/5726/5726532.png"),
+            ("thumb_width", 100),
+            ("thumb_height", 100)
         ])
     )
 
